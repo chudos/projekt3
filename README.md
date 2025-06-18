@@ -28,7 +28,7 @@ python projekt3.py <INPUT_URL> <OUTPUT_FILE.csv>
 ### Example:
 
 ```bash
-python projekt3.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6203 vysledky_jihlava.csv
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100" vysledky_praha.csv
 ```
 
 ## Output
@@ -37,9 +37,9 @@ The resulting CSV file contains the following information for each municipality:
 
 - Municipality code (`code`)
 - Municipality name (`name`)
+- Number of registered voters (`registered`)
 - Number of issued envelopes (`envelopes`)
 - Number of valid votes (`valid`)
-- Number of registered voters (`registered`)
 - Vote counts for each political party
 
 ## Code Structure
