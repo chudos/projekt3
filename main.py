@@ -71,7 +71,7 @@ def clean_value(value):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python projekt3.py input_url and output_csv")
+        print("Usage: python main.py <input_url> <output_csv>")
         sys.exit(1)
     main_url = sys.argv[1]
     output_csv = sys.argv[2]
