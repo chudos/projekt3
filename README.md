@@ -22,7 +22,7 @@ pip install requests beautifulsoup4
 ## How to Run the Script
 
 ```bash
-python projekt3.py <INPUT_URL> <OUTPUT_FILE.csv>
+python main.py <INPUT_URL> <OUTPUT_FILE.csv>
 ```
 
 ### Example:
